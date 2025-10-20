@@ -1,0 +1,7 @@
+[theme]
+base = "dark"
+primaryColor = "#00CED1"   # Cool turquoise accent
+backgroundColor = "#1A1A1A"   # Dark gray for main background
+secondaryBackgroundColor = "#2A2A2A"   # Mid-gray for panels and widgets
+textColor = "#E0E0E0"   # Soft light gray for readability
+font = "sans serif" # Clean, modern appearance

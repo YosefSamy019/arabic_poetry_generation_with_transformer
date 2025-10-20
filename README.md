@@ -106,6 +106,9 @@ Key Features:
 
 This ensures memory-efficient training even for tens of thousands of poems.
 
+- ![](images/img_1.png)
+
+
 ---
 
 ## 🧠 3. Model Architecture
@@ -139,6 +142,9 @@ This ensures memory-efficient training even for tens of thousands of poems.
 | **Epochs**     | 10                                                        |
 | **Callbacks**  | `EarlyStopping`, `ReduceLROnPlateau`, `HistoryCheckpoint` |
 | **Accuracy**   | ~55% validation accuracy                                  |
+
+
+- ![](images/img_2.png)
 
 ---
 
@@ -189,6 +195,7 @@ model.save_weights("train/encoder_v1_weights/")
 | `/train/encoder_v1_arch.png`      | Model architecture diagram   |
 | `/train/plots/poem_line_dist.png` | Poem line distribution       |
 
+![img_3.png](images/img_3.png)
 ---
 
 ## 🧮 6. Inference and Generation
@@ -206,6 +213,12 @@ Streamlit ensures:
 * “Generate” and “Cancel” controls
 * Responsive UI design with Arabic text support
 
+Word Level Tests
+* ![](images/img.png)
+* ![](images/img_4.png)
+
+Character Level Tests
+* ![img_5.png](images/img_5.png)
 ---
 
 ## 🧾 7. Comparison Summary
@@ -221,20 +234,9 @@ Streamlit ensures:
 
 ---
 
-## 🧠 8. Future Work
-
-* Implement a **Transformer Decoder** for autoregressive generation
-* Add **Beam Search** and **Top-k Sampling**
-* Fine-tune on specific Arabic poetry styles
-* Experiment with **GPT-like** pretraining
-* Integrate **attention visualization** for interpretability
-
----
-
 ## 👨‍💻 Author
 
 **Youssef Samy**
 Machine Learning Engineer | Benha University
-Specialized in NLP & AI for creative language generation
-
+Specialized in NLP & CV & AI for creative language generation
 
